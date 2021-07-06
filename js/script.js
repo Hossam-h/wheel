@@ -9,7 +9,7 @@
   startButton.addEventListener('click', () => {
    startButton.style.pointerEvents = 'none';
 
-    deg = Math.floor(3000 + Math.random() * 500);
+    deg = Math.floor(3000 + Math.random() * 5000);
 
     wheel.style.transition = 'all 2s ease-out';
 
