@@ -27,8 +27,8 @@ let deg =0;
 
     deg =Math.floor(5000 + Math.random() * 5000);
 
-    wheel.style.transition = 'all 1s ease-out';
-    container_point.style.transition = 'all 1s ease-out';
+    wheel.style.transition = 'all 6s ease-out';
+    container_point.style.transition = 'all 6s ease-out';
 
 
     wheel.style.transform = `rotate(${deg}deg)`;
